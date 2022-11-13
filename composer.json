@@ -1,0 +1,33 @@
+{
+    "name": "oxycore/pot",
+    "description": "The Oxycore PHP Open Tibia library",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-xml": "*",
+        "ext-zip": "*",
+        "psr/cache": "3.0.x-dev",
+        "psr/container": "2.0.x-dev",
+        "symfony/yaml": "6.2.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "filp/whoops": "^2.14",
+        "symfony/var-dumper": "6.2.x-dev"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Oxycore\\Pot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Duwles",
+            "email": "broxindev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "version": "1.0.0-dev"
+}
